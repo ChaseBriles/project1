@@ -7,17 +7,19 @@ body{
     min-height: 100vh;
 }
 
-/*p{
+p{
     color:white;
-}*/
+    font-size:large;
+}
 
 .header-box{
     display:flex;
     flex-direction:row-reverse;
-    height: 1vh;
+    height: 8vh;
     margin-left:auto;
     margin-right:auto;
     padding:0;
+    flex-grow:1;
     align-items:center;
     justify-content: center;
     /*background-color: rgb(203,182,119);*/
@@ -37,29 +39,45 @@ h1{
 #header-img{
     width:100px;
     background-color: transparent;
+    border-width:155px;
 }
 
 footer{
-    /*background-color:rebeccapurple;*/
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
     background-color:rebeccapurple;
 }
 
 .middler{
     flex-grow: 1;
     display:flex;
+    margin-left:auto;
+    margin-right:auto;
     flex-direction:row;
 }
 
 aside{
     background-color: rgb(203,182,119);
     flex-basis:150px;
-    width:50px;
+    width:30px;
+}
+aside.lefter{
+    border-right-width:20px;
+    border-left-width:10px;
+}
+
+aside.righter{
+    border-left-width:20px;
+    border-right-width:10px;
 }
 
 main{
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin-left: auto;
+    margin-right:auto;
     justify-content:center;
     flex-grow:1;
     flex-basis:0px;
@@ -87,4 +105,8 @@ main{
   .navlink > a:hover {
     background-color:rgba(255, 217, 0, 0.808);
     color:rebeccapurple;
+  }
+
+  a.social-link{
+      color:rgba(255, 217, 0, 0.808)
   }
