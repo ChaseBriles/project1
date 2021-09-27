@@ -1,0 +1,23 @@
+.middler{
+    background: "images/dukedog.png" !important;
+}
+
+a.directions{
+    color:rgba(255, 217, 0, 0.808);
+    text-decoration:none;
+}
+
+a.directions:hover{
+    color:white;
+    text-decoration:underline;
+}
+p{
+    font-size:larger;
+}
+h2{
+    color:white;
+    font-size:x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+

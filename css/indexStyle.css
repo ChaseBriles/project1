@@ -1,4 +1,29 @@
-p.intro{
-    width:100px;
-    color:red;
+.intro{
+    max-width:3000px;
+    margin-right:20px;
+    margin-left:20px;
 }
+
+.team-pic{
+    max-width:100%;
+    border-left:50px;
+    border-right:50px;
+    padding:20px;
+}
+
+aside{
+    background-color: rgb(203,182,119);
+    flex-basis:60px;
+    width:15px;
+}
+aside.lefter{
+    border-right-width:20px;
+    border-left-width:10px;
+}
+
+aside.righter{
+    border-left-width:20px;
+    border-right-width:10px;
+}
+
+
