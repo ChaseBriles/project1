@@ -1,0 +1,67 @@
+label{
+    color:white;
+    font-size:larger;
+}
+
+.middler{
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+
+#team-at-practice{
+    max-width:30%;
+    position:absolute;
+    top:220px;
+    left:100px;
+}
+
+#contact-info{
+  max-width:fit-content;
+}
+
+#event-head{
+    text-align:center;
+}
+
+#contact-head{
+    text-align:center;
+}
+
+aside{
+    background-color: rgb(203,182,119);
+    position:absolute;
+    flex-basis:fit-content;
+    align-items:center;
+    justify-content:center;
+    width:500px;
+    top:220px;
+    left:1300px;
+
+}
+aside.lefter{
+    border-right-width:20px;
+    border-left-width:10px;
+}
+
+aside.righter{
+    border-left-width:20px;
+    border-right-width:10px;
+}
+
+h2{
+    color:white;
+    font-size:xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 620px) {
+    #team-at-practice{
+        display:none;
+    }
+
+    aside{
+        display:none;
+    }
+    }

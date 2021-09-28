@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Project 1 Index</title>
+        <title>Contact Us</title>
+        <link rel="shortcut icon" type="image/png" href="images/faviconduke.png"/>
         <link rel="stylesheet" type="text/css" href="css/testingstyle.css">
+        <link rel="stylesheet" type="text/css" href="css/contactstyle.css">
     </head>
 
   <body>
     <header>
         <div class="header-box">
-            <img id="header-img" src="images/dukedog.png" alt="JMU Mascot">
+            <img id="header-img-left" src="images/dukedog.png" alt="JMU Mascot">
                 <h1>James Madison Men's Club Lacrosse</h1>
-            <img id="header-img" src="images/dukedog.png" alt="JMU Mascot">
+            <img id="header-img-right" src="images/dukedog.png" alt="JMU Mascot">
         </div>
     </header>
     <nav>
@@ -20,22 +22,55 @@
           <li class="navlink"><a href="index.html">Home</a></li>
           <li class="navlink"><a href="schedulepage.html">Schedule</a></li>
           <li class="navlink"><a href="contactpage.html">Contact Us</a></li>
-          <li class="navlink"><a href="teampage.html">About The Team</a></li>
+          <li class="navlink"><a href="teampage.html">Meet The Team</a></li>
           <li class="navlink"><a href="playerresouces.html">Player Resources</a></li>
         </ul>
       </nav>
     
+    <main>
       <div class="middler">
-        <aside></aside>   
-        <main>
-            <p>NOT DONE YET</p>
-        </main>
-        <aside></aside>
-    </div>
+        <h2 id="contact-head">Contact Us!</h2>
+        <p id="contact-info">Feel free to contact us about upcomming games, parent tailgates, the alumni game, or any other general questions!</p>
+        <form>
+          <label for="Name (First and Last)">Name:</label>
+            <input type="text" id="full-name" name="full-name"><br><br>
+          <label for="Email">Email:</label>
+          <input type="text" id="email" name=""><br><br>
+          <label for="mailing-list">Do you want to join our mailing list?</label><br>
+          <label><input type="radio">Yes</label>
+          <label><input type="radio">No</label><br><br>
+          <label for="Identify">Select Who you are:</label>
+          <select>
+            <option>Alumni</option>
+            <option>Parent</option>
+            <option>Organization</option>
+            <option>Player</option>
+            <option>Other</option>
+          </select><br><br>
+          <label for="Message">Enter Your Message Here:</label><br>
+          <textarea id="message" rows="10" cols="40">Leave this Blank if You are just joining out mailing list</textarea><br><br>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+    </main>
+    <aside>
+      <h2 id="event-head">Upcomming Team Events</h2>
+       <ul>
+         <li>Virginia Tech Home Tailgate: Oct 2nd</li>
+         <li>Alumni Game: Oct 24th</li>
+         <li>Parents Weekend: Oct 8th</li>
+         <li>Madison Mayhem Tailgate: Nov 6th</li>
+         <li>Madison Mayhem Post Tournement: Nov 6th (Night time)</li>
 
+       </ul>
+    
+    
+    
+    </aside>
+    <img id="team-at-practice" src="images/teamatpractice.png" alt="The Team At Practice">
     <footer>
-        <h2>Follows us on Instagram <a class="social-link" href="https://www.instagram.com/jmumenslacrosse/?hl=en">@jmumenslax</a> 
-            or on Twitter <a class="social-link" href="https://twitter.com/jmulax">@jmulax</a></h2>
+        <h3>Follows us on Instagram <a class="social-link" href="https://www.instagram.com/jmumenslacrosse/?hl=en">@jmumenslax</a> 
+            or on Twitter <a class="social-link" href="https://twitter.com/jmulax">@jmulax</a></h3>
     </footer>
   </body>
 </html>

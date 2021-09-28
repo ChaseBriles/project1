@@ -4,8 +4,8 @@
     margin-left:20px;
 }
 
-.team-pic{
-    max-width:100%;
+#team-pic{
+    max-width:70%;
     border-left:50px;
     border-right:50px;
     padding:20px;
@@ -26,4 +26,9 @@ aside.righter{
     border-right-width:10px;
 }
 
+@media (max-width: 620px) {
+   aside{
+       flex-basis:20px;
+   }
+}
 

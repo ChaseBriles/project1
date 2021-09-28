@@ -45,7 +45,12 @@ h1{
     
 }
 
-#header-img{
+#header-img-left{
+    width:80px;
+    background-color: transparent;
+}
+
+#header-img-right{
     width:80px;
     background-color: transparent;
 }
@@ -64,21 +69,6 @@ footer{
     margin-right:auto;
     flex-direction:row;
 }
-
-/*aside{
-    background-color: rgb(203,182,119);
-    flex-basis:60px;
-    width:15px;
-}
-aside.lefter{
-    border-right-width:20px;
-    border-left-width:10px;
-}
-
-aside.righter{
-    border-left-width:20px;
-    border-right-width:10px;
-}*/
 
 main{
     display:flex;
