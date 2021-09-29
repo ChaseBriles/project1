@@ -90,6 +90,7 @@ main{
     position: relative;
     flex-direction: row;
     justify-content: center;
+    
   }
   
   .navlink > a {

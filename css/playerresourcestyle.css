@@ -29,13 +29,13 @@ main{
 }
 
 p{
-    font-size:larger;
+    font-size:x-large;
     margin-right:20px;
     margin-left:20px;
 }
 h2{
     color:white;
-    font-size:x-large;
+    font-size:xx-large;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
 }

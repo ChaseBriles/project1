@@ -1,6 +1,10 @@
 label{
     color:white;
-    font-size:larger;
+    font-size:x-large;
+}
+
+p{
+    font-size:x-large;
 }
 
 .middler{
@@ -8,6 +12,8 @@ label{
     justify-content:center;
     text-align:center;
 }
+
+
 
 #team-at-practice{
     max-width:30%;

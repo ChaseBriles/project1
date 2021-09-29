@@ -28,7 +28,7 @@ aside.righter{
 
 @media (max-width: 620px) {
    aside{
-       flex-basis:20px;
+       display:none;
    }
 }
 
