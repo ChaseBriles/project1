@@ -13,8 +13,6 @@ p{
     text-align:center;
 }
 
-
-
 #team-at-practice{
     max-width:30%;
     position:absolute;
@@ -36,10 +34,7 @@ p{
 
 aside{
     background-color: rgb(203,182,119);
-    position:absolute;
-    flex-basis:fit-content;
-    align-items:center;
-    justify-content:center;
+    position: absolute;
     width:500px;
     top:220px;
     left:1300px;
@@ -62,7 +57,7 @@ h2{
     letter-spacing: 5px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 900px) {
     #team-at-practice{
         display:none;
     }

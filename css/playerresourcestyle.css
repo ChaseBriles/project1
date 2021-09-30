@@ -28,7 +28,11 @@ main{
     flex-basis:0px;
 }
 
-p{
+#mobile-dates{
+    display:none;
+}
+
+p, #mobile-dates{
     font-size:x-large;
     margin-right:20px;
     margin-left:20px;
@@ -38,10 +42,16 @@ h2{
     font-size:xx-large;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
+    margin-right:25px;
+    margin-left:25px;
 }
 
 @media (max-width: 620px) {
-    #helmet-gloves{
+    #tryout-dates{
         display:none;
+    }
+
+    #mobile-dates{
+        display:contents;
     }
     }
