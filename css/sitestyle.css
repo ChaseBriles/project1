@@ -22,7 +22,7 @@ p{
     display:flex;
     position:fixed;
     flex-direction:row-reverse;
-    position:relative;
+    position:static;
     height: 8vh;
     margin-left:auto;
     margin-right:auto;
@@ -30,15 +30,13 @@ p{
     flex-grow:1;
     align-items:center;
     justify-content: center;
-    /*background-color: rgb(203,182,119);*/
     background-color:black;
-    /*background-color: rebeccapurple;*/
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-style:italic;
-    font-size:60px;
+    font-size:4vw;
     margin-right:25px;
     margin-left:25px;
     /*color:rgb(255, 255, 255);*/

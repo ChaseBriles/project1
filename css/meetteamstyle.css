@@ -5,10 +5,6 @@
     padding: 25px;
   }
   
-  /* Display the columns below each other instead of side by side on small screens */
-  
-  
-  /* Add some shadows to create a card effect */
   .card {
     display:flex;
     flex-direction:column;
@@ -18,7 +14,6 @@
     align-items:flex-start;
   }
   
-  /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
   }
