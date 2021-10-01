@@ -20,12 +20,13 @@ p{
 .header-box{
     max-width:100%;
     display:flex;
+    position:fixed;
     flex-direction:row-reverse;
     position:relative;
     height: 8vh;
     margin-left:auto;
     margin-right:auto;
-    padding:0;
+    padding-bottom:20px;
     flex-grow:1;
     align-items:center;
     justify-content: center;
@@ -43,6 +44,14 @@ h1{
     /*color:rgb(255, 255, 255);*/
     color: rgb(203,182,119);
     
+}
+
+h3{
+    color:white;
+    font-size:large;
+    font-family:'Courier New', Courier, monospace;
+    margin-left:20px;
+    margin-right:20px;
 }
 
 #header-img-left{
