@@ -2,7 +2,10 @@
     float: left;
     width: 90%;
     margin-bottom: 16px;
-    padding: 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-bottom:25px;
   }
   
   .card {
@@ -24,6 +27,7 @@
   }
 
   .middler{
+      size:85em;
       flex-direction:column;
       justify-content:center;
       align-items:center;
