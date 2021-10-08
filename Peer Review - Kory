@@ -1,0 +1,32 @@
+1. What did you like about this website?
+The pages were all meaningful and the content across different pages was diversified but relevant. I liked the "Meet The Team" page with the player cards. I also thought the 
+home page was detailed and gave a good intro to the site.
+
+2. Describe one significant difference between your own P1 site and this person's. E.g.
+One difference is my layout/color scheme is a lot more restricted. 
+   
+   1. Which has a better user experience (and why)?
+   I think mine is easier to use. One problem I see with the user experience is the "Contact Us" page. I think the material on this page should be focused on contact, 
+   but there's a random box on the side for "Upcoming Team Events." I also think Contact Us should be on the end of the navbar rather than the middle. 
+   
+   2. Which codebase do you think would be more maintainable (and why)?
+   I think mine, because the Chase's CSS files are confusing. There's a bunch of the same elements in many or all of the 6 CSS files. I think limiting the style so you can keep 
+   track and change them easily would be a better choice. Similarly, I think you can group the same elements into a separate CSS file and link two CSS files into one HTML page 
+   for better organization.
+
+3. Is the code well-structured within files, and well-organized between files and directories?
+The CSS files are confusing. I think those could be improved a lot. The team page cards have a lot of nested lines which are hard to keep track of, so that could probably be 
+improved. Besides that, the structure and organization looks good.
+   1. if not, suggest some specific improvements
+   As in question 2, I think stick to similar styles so you don't have the same elements across a bunch of different CSS files. That way it's easier to track, and if you 
+   make one change you don't have to change it across a bunch of files.
+
+4. Did you find any other issues? If so, briefly enumerate them.
+The Contact Us page is aligned poorly. Player Resources also has some minor alignment issues. I think the player cards are too large when the resolution is set to a smaller size.
+   1. were semantically appropriate elements selected
+   Yes.
+   2. is the CSS refactored to limit duplication?
+   No.
+
+5. Do you have any other constructive comments for the author?
+No, but I enjoyed looking at and reviewing your website. Keep up the good work!
