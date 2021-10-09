@@ -18,14 +18,7 @@ a.directions:hover{
 }
 
 main{
-    display:flex;
     flex-direction:row;
-    align-items:center;
-    margin-left: auto;
-    margin-right:auto;
-    justify-content:center;
-    flex-grow:1;
-    flex-basis:0px;
 }
 
 #mobile-dates{
